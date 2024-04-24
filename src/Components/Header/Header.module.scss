@@ -1,0 +1,37 @@
+.header {
+  background-color: #34495e; // Цвет фона
+  color: #ffffff; // Цвет текста
+  padding: 20px 40px; // Внутренний отступ
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); // Тень
+
+  .brand {
+    font-size: 24px; // Размер шрифта
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff; // Цвет текста
+    transition: color 0.3s ease; // Плавное изменение цвета текста при наведении
+
+    &:hover {
+      color: #f39c12; // Цвет текста при наведении
+    }
+  }
+
+  .accountLink {
+    background-color: #3498db; // Цвет фона кнопки (для входа)
+    color: #ffffff; // Цвет текста кнопки (для входа)
+    border: none;
+    padding: 10px 20px; // Внутренний отступ кнопки
+    border-radius: 5px; // Закругление углов кнопки
+    text-decoration: none;
+    font-size: 16px; // Размер шрифта кнопки
+    cursor: pointer;
+    transition: background-color 0.3s ease; // Плавное изменение цвета фона при наведении
+
+    &:hover {
+      background-color: #2980b9; // Цвет фона кнопки при наведении
+    }
+  }
+}

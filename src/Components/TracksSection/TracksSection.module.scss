@@ -1,0 +1,35 @@
+.tracksSection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.topListens,
+.topLikes {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topLabel {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .tracksSection {
+    padding: 40px;
+    flex-direction: row; /* Изменяем направление flex на горизонтальное */
+    justify-content: space-between; /* Равномерное распределение между блоками */
+  }
+
+  .topListens,
+  .topLikes {
+    width: 48%;
+  }
+}
